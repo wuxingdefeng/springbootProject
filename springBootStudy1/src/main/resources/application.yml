@@ -5,7 +5,7 @@ spring:
   resources:
     static-locations: classpath:/templates/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
   profiles:
-    active: prod
+    active: dev
   aop:
     proxy-target-class: true
 mybatis:
